@@ -1,0 +1,11 @@
+icaro (1.0-huayra1) testing; urgency=low
+
+  * Release 1.0
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 28 Jan 2013 13:57:41 -0300
+
+icaro (0.6.2.290311-1) wizy; urgency=low
+
+  * Initial release.
+
+ -- Mauro Lizaur <mauro@debian.org>  Wed, 29 Aug 2012 15:08:35 -0300
