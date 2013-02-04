@@ -1,0 +1,8 @@
+Index: icaro/config.dat
+===================================================================
+--- icaro.orig/config.dat	2013-01-26 13:32:41.000000000 -0300
++++ icaro/config.dat	2013-02-04 17:05:24.000000000 -0300
+@@ -1,2 +1,2 @@
+ sdcc-sdcc
+-/usr/share/sugar/activities/TurtleArt.activity/turtleblocks.py
++turtleart
