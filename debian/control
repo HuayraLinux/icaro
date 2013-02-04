@@ -8,9 +8,11 @@ Homepage: http://roboticaro.org/
 
 Package: icaro
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, pygame, pywebkitgtk,
- pygtksourceview, sdcc, gputils, pyusb, python-tools, sugar-turtleart, pyserial
-Description: ICARO is a robotic educational project
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}, python-pygame,
+ python-webkit,python-gtksourceview2, sdcc, gputils, python-usb, python-pytools,
+ turtleart, python-serial
+Replaces: apicaro, tortucaro
+Description: Robotic educational project
  Icaro is a software developed with the intention of bringing,
  in a transparent manner to the user the basics of programming 
  (iterations, repetition, recursion, if conditional) of a 
