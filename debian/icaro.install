@@ -1,4 +1,4 @@
-udev /etc
+udev/* /etc/udev/rules.d
 imagenes/icarologo.png /usr/share/icons/hicolor/48x48/apps
 apicaro /usr/share/icaro
 componente /usr/share/icaro
