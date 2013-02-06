@@ -17,3 +17,4 @@ plugintortucaro/icaro /usr/share/sugar/activities/TurtleArt.activity/plugins/
 debian/icaro.desktop /usr/share/applications
 debian/bin/icaro /usr/bin
 debian/tmproot/* /
+debian/firmware/np05.tar.gz /usr/share/icaro/firmware

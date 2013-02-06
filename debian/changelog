@@ -1,5 +1,8 @@
 icaro (1.0-huayra1) testing; urgency=low
 
+  * Patch fix-turtleart-bin.diff
+  * Patch udev_symlinks.diff
+  * Patch copy_usr_share_icaro_firmware.diff
   * Release 1.0
 
  -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 28 Jan 2013 13:57:41 -0300
