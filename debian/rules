@@ -8,8 +8,6 @@
 	dh $@ --with-quilt
 
 override_dh_install:
-	ls
-	pwd
 	mkdir debian/tmproot
 	apicaro/setup.py install --root=debian/tmproot
 	dh_install
