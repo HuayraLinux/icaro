@@ -1,0 +1,41 @@
+--- a/plugintortucaro/icaro/icaro.py
++++ b/plugintortucaro/icaro/icaro.py
+@@ -22,7 +22,7 @@
+ import apicaro
+ import time
+ puerto = apicaro.puerto()
+-puerto.PUERTO='/dev/icaro'
++puerto.PUERTO='/dev/ttyACM0'
+ puerto.iniciar()
+ class Icaro(Plugin):
+     def __init__(self, parent):
+@@ -56,7 +56,7 @@
+                      style='basic-style-1arg',  
+                      label=_('abrir puerto'),  
+                      prim_name='abrir',
+-                     default=['/dev/icaro'],  
++                     default=['/dev/ttyACM0'],  
+                      help_string=_('abre el puerto para comunicacion con la placa'))
+         self._parent.lc.def_prim('abrir', 1, lambda self, valor: primitive_dictionary['abrir'](valor))
+ 
+@@ -200,7 +200,7 @@
+         palette.add_block('izquierda',  
+                      style='box-style',  
+                      label=_('izquierda'),  
+-                     prim_name='atras',  
++                     prim_name='izquierda',  
+                      help_string=_('izquierda'))
+         self._parent.lc.def_prim('izquierda', 0, lambda self: primitive_dictionary['izquierda'](1))
+ 
+@@ -224,9 +224,9 @@
+     def _atras(self,valor):
+         return 2
+     def _izquierda(self,valor):
+-        return 3
+-    def _derecha(self,valor):
+         return 4
++    def _derecha(self,valor):
++        return 3
+     def _parar(self,valor):
+         return 5
+ 
