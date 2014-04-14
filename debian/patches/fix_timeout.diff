@@ -1,0 +1,11 @@
+--- a/icaro.py
++++ b/icaro.py
+@@ -1161,7 +1161,7 @@
+ inicial=componente_inicial(20,50,1,fon,ventana_principal)
+ fon.objetos.append(inicial)
+ ventana_principal.window1.show_all()
+-gobject.timeout_add(1,ventana_principal.timeout)
++gobject.timeout_add(50,ventana_principal.timeout)
+ gobject.PRIORITY_DEFAULT=-1
+ #gobject.idle_add(ventana_principal.timeout)
+ gtk.main()

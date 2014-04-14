@@ -1,3 +1,9 @@
+icaro (1.0.3-huayra1) unstable; urgency=low
+
+  * version 1.0.3
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Thu, 03 Apr 2014 16:24:57 -0300
+
 icaro (1.0-huayra3) testing; urgency=low
 
   * Fix direccion de los motores en el plugin de turtleart.

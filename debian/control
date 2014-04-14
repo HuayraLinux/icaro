@@ -14,10 +14,12 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends},
   python-gtksourceview2,
   python-pygame,
   python-pytools,
+  python-rsvg,
   python-serial,
   python-usb,
   python-webkit,
   sdcc,
+  sdcc-libraries-nonfree,
   turtleart,
 Replaces: apicaro, tortucaro
 Description: Robotic educational project
