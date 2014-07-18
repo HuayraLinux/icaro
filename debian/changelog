@@ -1,3 +1,9 @@
+icaro (1.0.3-huayra2) unstable; urgency=low
+
+  * Cambio arch a all
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Fri, 18 Jul 2014 15:00:11 -0300
+
 icaro (1.0.3-huayra1) unstable; urgency=low
 
   * version 1.0.3
