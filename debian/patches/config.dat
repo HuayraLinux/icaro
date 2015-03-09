@@ -1,0 +1,10 @@
+Index: icaro-1.0.4/config.dat
+===================================================================
+--- icaro-1.0.4.orig/config.dat
++++ icaro-1.0.4/config.dat
+@@ -1,3 +1,3 @@
+-sdcc-sdcc
+-/usr/share/sugar/activities/TurtleBlocks.activity/turtleblocks.py
++sdcc
++turtleart
+ np05

@@ -1,7 +1,7 @@
 Source: icaro
 Section: devel
 Priority: optional
-Maintainer: Miguel Angel Garcia <miguel.garcia@gmail.com>
+Maintainer: Ignacio Juan Martín Benedetti <tranceway@gmail.com>
 Build-Depends: debhelper (>= 8.0.0), autotools-dev, quilt, python-support
 Standards-Version: 3.9.3
 Homepage: http://roboticaro.org/
@@ -24,6 +24,6 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends},
 Replaces: apicaro, tortucaro
 Description: Robotic educational project
  Icaro is a software developed with the intention of bringing,
- in a transparent manner to the user the basics of programming 
- (iterations, repetition, recursion, if conditional) of a 
+ in a transparent manner to the user the basics of programming
+ (iterations, repetition, recursion, if conditional) of a
  physical context such as a robot or automation system.

@@ -1,3 +1,9 @@
+icaro (1.0.4-huayra1) unstable; urgency=medium
+
+  * Versión 1.0.4
+
+ -- Ignacio Juan Martín Benedetti <tranceway@gmail.com>  Mon, 09 Mar 2015 12:30:20 -0300
+
 icaro (1.0.3-huayra2) unstable; urgency=low
 
   * Cambio arch a all
