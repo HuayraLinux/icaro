@@ -19,7 +19,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends},
   python-usb,
   python-webkit,
   sdcc,
-  sdcc-libraries-nonfree,
+  sdcc-libraries,
   turtleart,
 Replaces: apicaro, tortucaro
 Description: Robotic educational project
