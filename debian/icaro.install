@@ -6,6 +6,7 @@ ejemplo /usr/share/icaro
 imagenes /usr/share/icaro
 locale /usr/share/icaro
 pic16 /usr/share/icaro
+config.ini /usr/share/icaro
 *.py /usr/share/icaro
 *.xml /usr/share/icaro
 version /usr/share/icaro
