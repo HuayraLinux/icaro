@@ -1,3 +1,9 @@
+icaro (1.0.4-huayra3) unstable; urgency=medium
+
+  * Fix de sdcc
+
+ -- Ignacio Juan Martín Benedetti <tranceway@gmail.com>  Mon, 09 Mar 2015 18:42:51 -0300
+
 icaro (1.0.4-huayra2) unstable; urgency=medium
 
   * Dependencias nuevas
