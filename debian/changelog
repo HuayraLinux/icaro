@@ -1,3 +1,9 @@
+icaro (1.0.4-huayra4) unstable; urgency=medium
+
+  * Arregla imagen relativa que impide carga de programas.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Wed, 11 Mar 2015 17:17:15 -0300
+
 icaro (1.0.4-huayra3) unstable; urgency=medium
 
   * Fix de sdcc

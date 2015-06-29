@@ -1,0 +1,23 @@
+From d86720df3f29d338f21915f3b4d0a8db4177a3fc Mon Sep 17 00:00:00 2001
+From: Matias De lellis <mati86dl@gmail.com>
+Date: Wed, 11 Mar 2015 16:50:45 -0300
+Subject: [PATCH] Arregla que nunca carga los programas porque no encuentra una
+ imagan!!.
+
+---
+ carga.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/carga.py b/carga.py
+index a51e824..0eebed2 100644
+--- a/carga.py
++++ b/carga.py
+@@ -132,7 +132,7 @@ def __init__(self, ruta):
+             self.win.set_resizable(False)
+             self.win.set_default_size(600, 600)
+             box1 = gtk.VBox(False, 3)
+-            pixbufanim = gtk.gdk.PixbufAnimation("imagenes/gif/icr.gif")
++            pixbufanim = gtk.gdk.PixbufAnimation(sys.path[0]+"imagenes/gif/icr.gif")
+             image = gtk.Image()
+             image.set_from_animation(pixbufanim)
+             image.show()
