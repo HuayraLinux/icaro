@@ -1,6 +1,5 @@
 [Desktop Entry]
 Version=1.0
-Encoding=UTF-8
 Name=Icaro
 Comment=
 Terminal=false
@@ -9,4 +8,5 @@ Categories=GTK;Development;Education;
 Icon=icarologo
 Exec=icaro
 Name[es]=Icaro
-Description[es]: Robótica educativa con software y hardware libre 
+Description[es]: Robótica educativa con software y hardware libre
+Keywords: Development;Education;Robotics;Programming;
