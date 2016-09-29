@@ -1,9 +1,9 @@
 Source: icaro
 Section: devel
 Priority: optional
-Maintainer: Ignacio Juan Martín Benedetti <tranceway@gmail.com>
-Build-Depends: debhelper (>= 8.0.0), autotools-dev, quilt, python-support
-Standards-Version: 3.9.3
+Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
+Build-Depends: debhelper (>= 9.0.0), dh-python, python-all, python-setuptools
+Standards-Version: 3.9.6
 Homepage: http://roboticaro.org/
 
 Package: icaro

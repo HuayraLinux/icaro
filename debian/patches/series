@@ -1,5 +1,1 @@
-config.dat
-config.ini
-icaro_config_path
-icaro_config_path2
-001_arregla_ruta_relativa_a_imagen_a_carga.patch
+config_ini_turtleart_path.patch

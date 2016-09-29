@@ -1,0 +1,15 @@
+diff -upr icaro-1.0.6.orig/hardware/icaro/micro/conf/config.ini icaro-1.0.6/hardware/icaro/micro/conf/config.ini
+--- icaro-1.0.6.orig/hardware/icaro/micro/conf/config.ini	2016-09-28 14:16:38.654041034 -0300
++++ icaro-1.0.6/hardware/icaro/micro/conf/config.ini	2016-09-28 14:35:20.173392074 -0300
+@@ -2,9 +2,9 @@
+ pcb = #include<np05_06.h>
+ 
+ [general]
+-turtlear = /usr/share/sugar/activities/TurtleBlocks.activity/turtleblocks.py
++turtlear = turtleart
+ dir = firmware
+-sdcc = sdcc-sdcc
++sdcc = sdcc
+ 
+ [compilador]
+ dir = ~/.icaro/firmware/

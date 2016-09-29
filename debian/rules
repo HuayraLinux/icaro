@@ -5,11 +5,11 @@
 #export DH_VERBOSE=1
 
 %:
-	dh $@ --with-quilt
+	dh $@ --with python2
 
 override_dh_install:
-	mkdir debian/tmproot
-	python apicaro/setup.py install --root=debian/tmproot
+	chmod +x apicaro/setup.py
+	$$python apicaro/setup.py install --root=$(CURDIR)/debian/$(DEB_SOURCE) --install-layout=deb;
 	dh_install
 
 override_dh_auto_build:

@@ -25,6 +25,7 @@ License: GPL-3.0
 
 Files: debian/*
 Copyright: 2012 Mauro Lizaur <mauro@debian.org>
+           2016 Fernando Toledo <ragnarok@docksud.com.ar>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

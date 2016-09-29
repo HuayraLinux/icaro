@@ -1,12 +1,12 @@
 [Desktop Entry]
 Version=1.0
 Encoding=UTF-8
-Name=icaro
+Name=Icaro
 Comment=
 Terminal=false
 Type=Application
-Categories=GTK;Education;
+Categories=GTK;Development;Education;
 Icon=icarologo
 Exec=icaro
-Name[es_ES]=icaro
-X-Desktop-File-Install-Version=0.21
+Name[es]=Icaro
+Description[es]: Robótica educativa con software y hardware libre 
