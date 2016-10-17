@@ -5,10 +5,10 @@ imagenes                usr/share/icaro
 locale                  usr/share/icaro
 paletas                 usr/share/icaro
 plugintortucaro/icaro   usr/share/turtleart/plugins
-udev/*                  etc/udev/rules.d
 imagenes/icarologo.png  usr/share/icons/hicolor/48x48/apps
 *.py                    usr/share/icaro
 version                 usr/share/icaro
 debian/icaro.desktop    usr/share/applications
 debian/bin/icaro        usr/bin
-debian/usr/*		usr/
+debian/usr/*            usr/
+udev/*                  lib/udev/rules.d
