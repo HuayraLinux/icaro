@@ -10,6 +10,7 @@
 override_dh_install:
 	chmod +x apicaro/setup.py
 	$$python apicaro/setup.py install --root=$(CURDIR)/debian/$(DEB_SOURCE) --install-layout=deb;
+	rename "s/([0-9]+)-/\$1-icaro-/" udev/*
 	dh_install
 
 override_dh_auto_build:
