@@ -1,0 +1,3 @@
+# Incluímos el firmware de las placas, por lo cual es un paquete
+# independiente de arquitectura pese a tener binarios
+icaro binary: arch-independent-package-contains-binary-or-object

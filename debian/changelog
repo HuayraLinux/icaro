@@ -1,3 +1,10 @@
+icaro (1.0.8-1) unstable; urgency=medium
+
+  * Fix en el .desktop
+  * Nueva versión
+
+ -- Ignacio Losiggio <iglosiggio@gmail.com>  Wed, 21 Jun 2017 14:05:04 -0300
+
 icaro (1.0.7-1) unstable; urgency=medium
 
   * Nueva versión upstream 1.0.7
