@@ -8,5 +8,5 @@ Categories=GTK;Development;Education;
 Icon=icarologo
 Exec=icaro
 Name[es]=Icaro
-Description[es]: Robótica educativa con software y hardware libre
-Keywords: Development;Education;Robotics;Programming;
+Description[es]=Robótica educativa con software y hardware libre
+Keywords=Development;Education;Robotics;Programming;
